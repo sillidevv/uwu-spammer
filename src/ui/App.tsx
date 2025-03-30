@@ -190,7 +190,7 @@ function App() {
 					<Box bg="bg.panel" p="8" borderRadius="2xl">
 						<Center h="100%">
 							<VStack gap="8">
-								<Heading fontFamily="mono" fontWeight="light" mb="">UwuSpammer v{config.VERSION}</Heading>
+								<Heading fontFamily="mono" fontWeight="light" mb="">uwu-spammer v{config.VERSION}</Heading>
 
 								<Input w="30rem" placeholder="Webhook URL" variant="flushed" onChange={(e) => {setWebhookUrl(e.target.value)}} />
 
