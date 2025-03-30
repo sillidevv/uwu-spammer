@@ -10,6 +10,6 @@ This is a discord webhook spammer and deleter made with react, typescript and vi
 
 - **Rate limit prevention (kinda):** Checks if the webhook has been rate limited, if so waits a little bit
 
-TODO: Make the rate limit actually wait for however long it needs to wait.
+TODO: Make the rate limit actually wait for however long it needs to wait
 
 :3
