@@ -94,6 +94,7 @@ function App() {
 	const handleWebhook = (action: Action) => async () => {
 		if (isWebhookUrlValid(webhookUrl)) {
 			if (action == Action.SPAM) {
+				
 				setIsSpamming(true);
 				isSpammingRef.current = true;
 
@@ -144,8 +145,10 @@ function App() {
 
 				setIsSpamming(false);
 				isSpammingRef.current = false;
+				
 			}
 			else if (action == Action.DELETE) {
+
 				const response = await fetch(webhookUrl, {
 					method: "DELETE"
 				})
@@ -171,6 +174,7 @@ function App() {
 					type: "success"
 				})
 			}
+
 		} else {
 			toaster.create({
 				title: "Invalid Webhook URL",

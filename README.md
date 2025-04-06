@@ -1,4 +1,4 @@
-# UwuSpammer v1
+# uwu-spammer v1
 
 This is a discord webhook spammer and deleter made with react, typescript and vite
 
